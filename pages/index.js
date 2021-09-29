@@ -6,8 +6,11 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center space-y-4">
-      <span className="text-6xl">{number}</span>
+
+      <span>{number}</span>
+
       <Button onClick={() => setNumber(number + 5)}>Addera 5</Button>
+      
     </main>
   )
 }
